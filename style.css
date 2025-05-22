@@ -819,209 +819,70 @@
 .wrapper_head{
     width: 100%;
     height: 60vh;
-    background-image: url(./Images/HeaderBackground.png);
-    background-position: top;
-    background-size: cover;
-    position: relative;
-}
-
-.wrapper_head::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, .5);
 }
 
 .Hhead{
     width: 100%;
     height: 8rem;
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    position: absolute;
-    z-index: 3;
 }
 
 .Title{
     width: 10vw;
     height: 3rem;
     margin: 3% 3%;
-    display: flex;
-
-    background-image: url(./Images/Golden.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
 }
 
 .H_servicesElement{
-    width: 5%;
-    margin: 2%;
-    padding: 1rem;
-    height: 1rem;
-    text-align: center;
-    color: white;
-    cursor: pointer;
-    text-transform: uppercase;
-}
-
-.H_servicesElement_LS{
-    margin-right: 10%;
-}
-
-.Hcenter{
-    z-index: 3;
-    margin: auto;
-    width: 70%;
-    text-align: center;
-    position: absolute;
-    z-index: 3;
-    top: 30%;
-    left: 15%;
+    width: 3vw;
+    margin: 1%;
+    font-size: 2vw;
 }
 
 .welcome{
-    text-transform: capitalize;
-    padding-top: 8%;
-    font-size: 2em;
-    color: white;
+    font-size: 1.5em;
 }
 
 .NiceTooMeetYou{
-    margin-top: 0.7rem;
-    font-size: 4.5em;
-    color: white;
-}
-
-.TMMbutton{
-    margin-top: 1.5rem;
-    font-size: 1.5em;
-    background-color: gold;
-    color: white;
-    border-radius: 3%;
-    padding: 15px;
-    font-weight: 600;
-    cursor: pointer;
-}
-
-.NiceTooMeetYou, .TMMbutton{
-    text-transform: uppercase;
+    font-size: 2.5em;
 }
 
 /* ######################## */
 
 .services{
-    height: 40rem;
+    height: 100vh;
 }
 
 .S_Title{
-    height: 20%;
-    width: 30%;
-    margin: auto;
-    text-align: center;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    height: 15vh;
+    width: 25vw;
 }
 
 .S_MainTitle{
-    font-size: 4em;
-    font-weight: 900;
-    margin: auto;
-    text-align: center;
+    font-size: 3em;
 }
 
 .SPodTitle{
-    font-size: large;
-    font-weight: 900;
-    color: gray;
+    font-size: medium;
 }
 
 .S_cards{
-    width: 65%;
-    list-style: none;
-    justify-content: space-between;
-    text-align: center;
-    margin: auto;
-    display: flex;
-}
-
-.Card_wrapper{
-    height: 15rem;
-    width: 16rem;
-}
-
-.C_img{
-    width: 100px;
-    height: 100px;
-    margin: auto;
-    border-radius: 50%;
-    border: 4px solid gold;
-}
-
-/*  */
-.C_img_id_1{
-    background-image: url(./Images/Bracked.png);
-    background-size: 60%;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.C_img_id_2{
-    background-image: url(./Images/LapTop.png);
-    background-size: 60%;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.C_img_id_3{
-    background-image: url(./Images/lock.png);
-    background-size: 40%;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-/*  */
-
-
-.C_CardTitle{
-    font-size: 1.5em;
-    font-weight: 600;
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
-}
-
-.C_CardText{
-    color: gray;
+    width: 35vw;
+    flex-flow: column wrap;
 }
 
 /* ######################## */
 
-.P_title{
-    height: 20%;
-    width: 30%;
-    margin: auto;
-    text-align: center;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-}
-
 .P_MainTitle{
-    font-size: 4em;
-    font-weight: 900;
-    margin: auto;
-    text-align: center;
+    font-size: 2.5em;
 }
 
 .PPodTitle{
-    font-size: large;
-    font-weight: 900;
-    color: gray;
+    font-size: medium;
 }
 
 .P_Cards{
-    width: max-content;
-    height: 57rem;
+    width: 90vw;
+    height: 100vh;
     list-style: none;
     justify-content: space-between;
     text-align: center;
