@@ -8,7 +8,7 @@
 
 .wrapper_head{
     width: 100%;
-    height: 57.5em;
+    height: 57.5rem;
     background-image: url(./Images/HeaderBackground.png);
     background-position: top;
     background-size: cover;
@@ -26,7 +26,7 @@
 
 .Hhead{
     width: 100%;
-    height: 8em;
+    height: 8rem;
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -36,7 +36,7 @@
 
 .Title{
     width: 6%;
-    height: 3em;
+    height: 3rem;
     margin: 3% 13%;
 
     background-image: url(./Images/Golden.png);
@@ -48,8 +48,8 @@
 .H_servicesElement{
     width: 5%;
     margin: 2%;
-    padding: 1em;
-    height: 1em;
+    padding: 1rem;
+    height: 1rem;
     text-align: center;
     color: white;
     cursor: pointer;
@@ -79,13 +79,13 @@
 }
 
 .NiceTooMeetYou{
-    margin-top: 0.7em;
+    margin-top: 0.7rem;
     font-size: 4.5em;
     color: white;
 }
 
 .TMMbutton{
-    margin-top: 1.5em;
+    margin-top: 1.5rem;
     font-size: 1.5em;
     background-color: gold;
     color: white;
@@ -102,7 +102,7 @@
 /* ######################## */
 
 .services{
-    height: 40em;
+    height: 40rem;
 }
 
 .S_Title{
@@ -110,8 +110,8 @@
     width: 30%;
     margin: auto;
     text-align: center;
-    margin-top: 5em;
-    margin-bottom: 5em;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 .S_MainTitle{
@@ -137,8 +137,8 @@
 }
 
 .Card_wrapper{
-    height: 15em;
-    width: 16em;
+    height: 15rem;
+    width: 16rem;
 }
 
 .C_img{
@@ -175,8 +175,8 @@
 .C_CardTitle{
     font-size: 1.5em;
     font-weight: 600;
-    margin-top: 1em;
-    margin-bottom: 0.5em;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .C_CardText{
@@ -190,8 +190,8 @@
     width: 30%;
     margin: auto;
     text-align: center;
-    margin-top: 5em;
-    margin-bottom: 5em;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 .P_MainTitle{
@@ -209,19 +209,19 @@
 
 .P_Cards{
     width: max-content;
-    height: 57em;
+    height: 57rem;
     list-style: none;
     justify-content: space-between;
     text-align: center;
     margin: auto;
     display: flex;
     flex-flow: column wrap;
-    margin-bottom: 5em;
+    margin-bottom: 5rem;
 }
 
 .P_servicesElement{
-    width: 17em;
-    margin: 2em;
+    width: 17rem;
+    margin: 2rem;
 }
 
 .P_img{
@@ -272,8 +272,8 @@
 .P_CardTitle{
     font-size: 1.5em;
     font-weight: 600;
-    margin-top: 1em;
-    margin-bottom: 0.5em;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .P_CardPodTitle{
@@ -293,8 +293,8 @@
     width: 30%;
     margin: auto;
     text-align: center;
-    margin-top: 5em;
-    margin-bottom: 5em;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 .A_title{
@@ -308,7 +308,7 @@
     font-size: large;
     font-weight: 900;
     color: gray;
-    margin-bottom: 5em;
+    margin-bottom: 5rem;
 }
 
 .A_Cards{
@@ -335,12 +335,12 @@
     display: flex;
     margin: auto;
     justify-content: center;
-    margin-bottom: 5em;
+    margin-bottom: 5rem;
 }
 
 .EmptyElement{
-    height: 270px;
-    width: 360px;
+    height: 12rem;
+    width: 20rem;
     display: flex;
 }
 
@@ -348,21 +348,21 @@
     font-size: large;
     font-weight: 900;
     text-transform: uppercase;
-    width: 20em;
+    width: 20rem;
 }
 
 .A_Title{
     font-size: large;
     font-weight: 900;
     text-transform: capitalize;
-    width: 20em;
+    width: 20rem;
 }
 
 .A_CardText{
     font-size: large;
     font-weight: 900;
     color: gray;
-    width: 20em;
+    width: 20rem;
 }
 
 .A_CardTextLeft{
@@ -424,7 +424,7 @@
 /* ######################## */
 
 .our_team{
-    height: 50em;
+    height: 50rem;
 }
 
 .O_Title{
@@ -432,12 +432,12 @@
     width: 30%;
     margin: auto;
     text-align: center;
-    margin-top: 5em;
-    margin-bottom: 5em;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 .O_MainTitle{
-    font-size: 4em;
+    font-size: rem;
     font-weight: 900;
     margin: auto;
     text-align: center;
@@ -448,12 +448,12 @@
     font-size: large;
     font-weight: 900;
     color: gray;
-    margin-bottom: 5em;
+    margin-bottom: 5rem;
 }
 
 .O_cards{
     width: 70%;
-    height: 27em;
+    height: 27rem;
     list-style: none;
     justify-content: space-between;
     text-align: center;
@@ -462,8 +462,8 @@
 }
 
 .O_Card_wrapper{
-    height: 25em;
-    width: 20em;
+    height: 25rem;
+    width: 20rem;
 }
 
 .O_img{
@@ -478,8 +478,8 @@
 .O_CardTitle{
     font-size: 1.5em;
     font-weight: 600;
-    margin-top: 1em;
-    margin-bottom: 0.5em;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
     text-align: center;
 }
 
@@ -487,11 +487,11 @@
     color: gray;
     text-align: center;
     font-size: x-large;
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
 }
 
 .InfoLogos{
-    height: 3.5em;
+    height: 3.5rem;
     list-style: none;
     display: flex;
     text-align: center;
@@ -500,8 +500,8 @@
 }
 
 .InfoLogosElement{
-    height: 3.5em;
-    width: 3.5em;
+    height: 3.5rem;
+    width: 3.5rem;
     border-radius: 50%;
 }
 
@@ -552,29 +552,29 @@
 /*  */
 
 .OPodInfo{
-    height: 2em;
+    height: 2rem;
     width: 35%;
     text-align: center;
     margin: auto;
     color: gray;
-    margin-top: 5em;
-    margin-bottom: 5em;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 /* ######################## */
 
 .partners{
     width: 80%;
-    height: 5em;
+    height: 5rem;
     list-style: none;
     justify-content: space-around;
     margin: auto;
     display: flex;
-    margin-bottom: 5em;
+    margin-bottom: 5rem;
 }
 
 .partnersLogos{
-    width: 12em;
+    width: 12rem;
     aspect-ratio: 3/1;
 }
 
@@ -612,14 +612,14 @@
 
 .contact{
     background-color: rgb(34, 34, 34);
-    height: 45em;
+    height: 45rem;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
     flex-direction: column;
     background-image: url(./Images/map.png);
-    background-position-x: 60em;
+    background-position-x: 60rem;
     background-position-y: top;
     background-repeat: no-repeat;
 }
@@ -655,7 +655,7 @@
 
 .left_forms{
     color: white;
-    margin: 2em;
+    margin: 2rem;
     height: max-content;
     position: relative;
 }
@@ -674,7 +674,7 @@
     height: 100%;
     width: 95%;
     border-radius: 5%;
-    font-size: 1.2em;
+    font-size: 1.2rem;
     font-weight: 400;
     text-transform: uppercase;
     color: gray;
@@ -702,7 +702,7 @@
 .right_form{
     color: white;
     height: 17.5em;
-    width: 30em;
+    width: 30rem;
 }
 
 .rightF{
@@ -737,7 +737,7 @@
 /* ######################## */
 
 .Footer{
-    height: 7em;
+    height: 7rem;
     width: 100%;
     position: relative;
 }
@@ -748,12 +748,12 @@
     justify-content: space-around;
     margin: auto;
     display: flex;
-    padding-top: 1.5em;
+    padding-top: 1.5rem;
 }
 
 .FooterLogo{
-    height: 4em;
-    width: 4em;
+    height: 4rem;
+    width: 4rem;
 }
 
 .FooterLogo1{
@@ -805,4 +805,14 @@
     left: 15%;
     color: gray;
     font-weight: 500;
+}
+
+/* ############################ */
+/* ############################ */
+/* ############################ */
+/* ############################ */
+/* ############################ */
+
+@media (max-width: 800px) {
+    
 }
