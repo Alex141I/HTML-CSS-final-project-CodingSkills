@@ -438,7 +438,7 @@
 }
 
 .O_MainTitle{
-    font-size: rem;
+    font-size: 2rem;
     font-weight: 900;
     margin: auto;
     text-align: center;
@@ -823,7 +823,7 @@
 
 .Hhead{
     width: 100%;
-    height: 8rem;
+    height: 4rem;
 }
 
 .Title{
@@ -836,6 +836,11 @@
     width: 3vw;
     margin: 1%;
     font-size: 2vw;
+    padding: 1rem 0 1rem 0;
+}
+
+.H_servicesElement_LS{
+    padding-right: 3rem;
 }
 
 .welcome{
@@ -854,7 +859,8 @@
 
 .S_Title{
     height: 15vh;
-    width: 25vw;
+    width: max-content;
+    margin: auto;
 }
 
 .S_MainTitle{
@@ -866,11 +872,15 @@
 }
 
 .S_cards{
-    width: 35vw;
+    width: max-content;
     flex-flow: column wrap;
 }
 
 /* ######################## */
+
+.P_title{
+    width: max-content;
+}
 
 .P_MainTitle{
     font-size: 2.5em;
@@ -881,100 +891,20 @@
 }
 
 .P_Cards{
-    width: 90vw;
-    height: 100vh;
-    list-style: none;
-    justify-content: space-between;
-    text-align: center;
-    margin: auto;
-    display: flex;
-    flex-flow: column wrap;
-    margin-bottom: 5rem;
+    width: max-content;
+    height: max-content;
 }
 
 .P_servicesElement{
-    width: 17rem;
-    margin: 2rem;
-}
-
-.P_img{
-    width: 300px;
-    height: 300px;
-    margin: auto;
-}
-
-/*  */
-.P_img_id_1{
-    background-image: url(./Images/P1.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.P_img_id_2{
-    background-image: url(./Images/P2.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.P_img_id_3{
-    background-image: url(./Images/P3.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.P_img_id_4{
-    background-image: url(./Images/P4.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.P_img_id_5{
-    background-image: url(./Images/P5.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.P_img_id_6{
-    background-image: url(./Images/P6.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-/*  */
-
-.P_CardTitle{
-    font-size: 1.5em;
-    font-weight: 600;
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
-}
-
-.P_CardPodTitle{
-    color: gray;
+    width: max-content;
+    margin: 0;
 }
 
 /* ######################## */
 
-.about{
-    width: 85%;
-    margin: auto;
-    position: relative;
-}
-
 .A_title{
-    height: 20%;
-    width: 30%;
+    width: max-content;
     margin: auto;
-    text-align: center;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-}
-
-.A_title{
-    font-size: 4em;
-    font-weight: 900;
-    margin: auto;
-    text-align: center;
 }
 
 .APodTitle{
@@ -1097,188 +1027,62 @@
 /* ######################## */
 
 .our_team{
-    height: 50rem;
+    height: 40rem;
 }
 
 .O_Title{
-    height: 20%;
-    width: 30%;
-    margin: auto;
-    text-align: center;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-}
-
-.O_MainTitle{
-    font-size: rem;
-    font-weight: 900;
-    margin: auto;
-    text-align: center;
-}
-
-.OPodTitle{
-    text-align: center;
-    font-size: large;
-    font-weight: 900;
-    color: gray;
-    margin-bottom: 5rem;
+    width: max-content;
 }
 
 .O_cards{
-    width: 70%;
-    height: 27rem;
-    list-style: none;
-    justify-content: space-between;
-    text-align: center;
+    width: max-content;
+    height: 17rem;
     margin: auto;
-    display: flex;
 }
 
 .O_Card_wrapper{
-    height: 25rem;
-    width: 20rem;
+    height: max-content;
+    width: max-content;
+    margin-right: 1rem;
 }
 
 .O_img{
-    width: 250px;
-    height: 250px;
-    margin: auto;
-    border-radius: 50%;
-    border: 2px solid gray;
-    background-color: black;
+    width: 100px;
+    height: 100px;
 }
 
 .O_CardTitle{
-    font-size: 1.5em;
-    font-weight: 600;
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
-    text-align: center;
+    font-size: 1em;
+    width: 99%;
 }
 
 .O_CardPodTitle{
-    color: gray;
-    text-align: center;
-    font-size: x-large;
-    margin-bottom: 1rem;
-}
-
-.InfoLogos{
-    height: 3.5rem;
-    list-style: none;
-    display: flex;
-    text-align: center;
-    justify-content: space-around;
+    font-size: medium;
     margin: auto;
 }
 
 .InfoLogosElement{
-    height: 3.5rem;
-    width: 3.5rem;
+    height: 2rem;
+    width: 2rem;
     border-radius: 50%;
 }
 
-/*  */
-
-.Logo_X{
-    background-image: url(./Images/White_X.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.Logo_G{
-    background-image: url(./Images/White_G+.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.Logo_F{
-    background-image: url(./Images/White_FB.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-
-}
-.Logo_P{
-    background-image: url(./Images/White_P.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-/*  */
-
-.Logo_X:hover{
-    background-image: url(./Images/X.png);
-}
-
-.Logo_G:hover{
-    background-image: url(./Images/G+.png);
-}
-
-.Logo_F:hover{
-    background-image: url(./Images/FB.png);
-
-}
-.Logo_P:hover{
-    background-image: url(./Images/P.png);
-}
-
-/*  */
-
 .OPodInfo{
-    height: 2rem;
-    width: 35%;
-    text-align: center;
+    height: max-content;
+    width: 80%;
     margin: auto;
-    color: gray;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
 }
 
 /* ######################## */
 
 .partners{
-    width: 80%;
-    height: 5rem;
-    list-style: none;
-    justify-content: space-around;
-    margin: auto;
-    display: flex;
-    margin-bottom: 5rem;
+    flex-flow: column wrap;
+    width: max-content;
+    height: max-content;
 }
 
 .partnersLogos{
-    width: 12rem;
-    aspect-ratio: 3/1;
-}
-
-.partnersLogos1{
-    background-image: url(./Images/envato.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-
-.partnersLogos2{
-    background-image: url(./Images/WorldPress.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-
-.partnersLogos3{
-    background-image: url(./Images/ae_tuts.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.partnersLogos4{
-    background-image: url(./Images/Microlancer.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+    padding-bottom: 1rem;
 }
 
 /* ######################## */
