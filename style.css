@@ -2,6 +2,7 @@
     border: 0;
     padding: 0;
     margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /*  */
@@ -330,6 +331,14 @@
 
 /* .A_Card{
 } */
+
+.A_left{
+    margin-right: 15px;
+}
+
+.A_right{
+    margin-left: 15px;
+}
 
 .P_CardElement{
     width: 100%;
@@ -674,7 +683,7 @@
 .input{
     height: 100%;
     width: 95%;
-    border-radius: 5%;
+    border-radius: 15px;
     font-size: 1.2rem;
     font-weight: 400;
     text-transform: uppercase;
@@ -715,7 +724,7 @@
     resize: none;
     height: 90%;
     width: 100%;
-    border-radius: 3%;
+    border-radius: 15px;
     font-size: 1.2em;
     font-weight: 600;
     text-transform: uppercase;
